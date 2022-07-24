@@ -5,7 +5,8 @@ from dash.dependencies import Input,Output
 import pandas as pd
 import plotly.express as px
 
-df1=""
+df1="C:/User/Sanjay/Desktop/5308.xlsx"
+df1="C:/User/Sanjay/Desktop/5329.xlsx"
 
 app=dash.Dash()
 
@@ -44,6 +45,10 @@ fig.show()
 <frameset src="page 1">
 <frameset src="page 2">
 </html>
+                             
+     @call_back
+                               output={pie}
+                               input={pie}
 
 #Run local Server
 
