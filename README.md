@@ -4,6 +4,8 @@ Required Packages:
 I am using pycharm to install
 Goto->setting->select python interepter->click + symbol ->search package and install 
 Before installing packages check if pip is installed
+
+
 pip install Flask
 pip install dash
 pip install plotly
